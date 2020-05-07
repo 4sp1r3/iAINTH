@@ -74,7 +74,7 @@ res = es.search(index="logs-endpoint-winevent-*",body=doc)
 count = res['hits']['total']['value']
 tactic = "Persistence"
 technique = "Hidden Files and Directories"
-procedure = "Create Windows System File with Attrib"
+procedure = "Create Windows Hidden File with Attrib"
 tech_code = "T1158"
 
 action ={
@@ -87,4 +87,4 @@ action ={
 
 es.index(index="represent_5",body = action, id = 64)
 
-print('Create Windows System File with Attrib.py '+ str(count))
+print('Create Windows Hidden File with Attrib.py '+ str(count))

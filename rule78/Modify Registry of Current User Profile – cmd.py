@@ -48,4 +48,4 @@ action ={
 
 es.index(index="represent_5",body = action, id = 88)
 
-print('Modify Registry of Current User Profile ¨C cmd.py '+ str(count))
+print('Modify Registry of Current User Profile - C cmd.py '+ str(count))
