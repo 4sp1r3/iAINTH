@@ -12,8 +12,9 @@ def execRule(ruleDir):
     for file in ruleList:
         _,shortname, extention = jwkj_get_filePath_fileName_fileExt(file)
         if(extention == '.py' ):
-            os.system('python3 ' + ruleDir + '/' + file)
+            os.system('python ' + ruleDir + '/' + '\"'+file +'\"')
+
 
 
 if __name__ == "__main__":
-    execRule()
+    execRule('rule78')
