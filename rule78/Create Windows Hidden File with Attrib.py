@@ -18,7 +18,7 @@ doc = {
                   },
                   {
                     "wildcard": {
-                      "process_command_line.keyword": "* +s *"
+                      "process_command_line.keyword": "* +h *"
                     }
                   }
                 ]
